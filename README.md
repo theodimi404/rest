@@ -60,7 +60,12 @@ Explore and understand the API using the following documentation tools:
    ```bash
    docker-compose -f docker-compose.yml up -d
    
-4. **Access the Django server in:**
+4. **Run the migrations:**
+
+   ```bash
+   docker-compose -f docker-compose.yml exec rest-web-1 migrate
+   
+5. **Access the Django server in:**
 
    ```bash
    localhost:8000

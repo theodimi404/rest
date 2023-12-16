@@ -38,3 +38,7 @@ For maintaining a clear and structured commit history, this project follows the 
 
 To provide comprehensive API documentation, the project utilizes the `drf-yasg` package that integrates with the Django Rest Framework,
 giving the ability to create a swagger and a redoc documentation page
+
+## Env Variables
+
+I treated it as a development project, and I didn't include a .env file with secrets (for example the db password). 

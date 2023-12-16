@@ -59,7 +59,7 @@ Explore and understand the API using the following documentation tools:
    ```bash
    docker exec rest_web_1 python manage.py migrate
    
-4. **Access the Django server in:**
+4. **Access the Swagger Page in:**
 
    ```bash
-   localhost:8000
+   localhost:8000/swagger

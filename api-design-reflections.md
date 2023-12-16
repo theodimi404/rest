@@ -41,4 +41,10 @@ giving the ability to create a swagger and a redoc documentation page
 
 ## Env Variables
 
-I treated it as a development project, and I didn't include a .env file with secrets (for example the db password). 
+I treated it as a development project, and I didn't include a .env file with secrets (for example the db password).
+
+## Tests
+
+For testing the views methods, I included a file ```tests.py``` in the ```course``` app. You can run them with
+```bash
+docker exec rest_web_1 python manage.py test course

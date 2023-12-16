@@ -48,24 +48,18 @@ Explore and understand the API using the following documentation tools:
 
    ```bash
    git clone https://github.com/theodimi404/rest.git
-
-2. **Build the Docker images:**
-
-   ```bash
-   cd rest
-   docker-compose -f docker-compose.yml build
    
-3. **Start the Docker containers:**
+2. **Start the Docker containers:**
 
    ```bash
    docker-compose -f docker-compose.yml up -d
    
-4. **Run the migrations:**
+3. **Run the migrations:**
 
    ```bash
-   docker-compose -f docker-compose.yml exec rest-web-1 migrate
+   docker exec rest_web_1 python manage.py migrate
    
-5. **Access the Django server in:**
+4. **Access the Django server in:**
 
    ```bash
    localhost:8000
